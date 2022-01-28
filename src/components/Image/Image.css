@@ -1,0 +1,44 @@
+img {
+    border : 1px solid black;
+    width: 100%;
+    margin: 1px auto;
+    display: flex;
+    justify-content: center;
+    padding:5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+}
+.name {
+    font-size: 1.5rem;
+    font-style: italic;
+    
+
+}
+ a{
+    font-size: 1.5rem;
+    font-style: italic;
+     color:black;
+ }
+
+.Info{
+    width: 100%;
+    margin: 1px auto;
+    padding:5px;
+    height: 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.container{
+    width: 95%;
+    margin: 5px auto;
+    background-color:#16726341;
+}
+
+.container2{
+    width: 65%;
+    margin: 5px auto;
+}
+
