@@ -18,7 +18,7 @@ export default class SearchBar extends Component {
   render() {
     return  <div className='input-card'>
     <form onSubmit={this.handleSubmit}>
-      <label>Your Favorite Wort    </label>
+      <label>Your Favorite Word    </label>
      <input className='text'
       onChange={this.handleInputChange}
       onChange={(e) =>this.setState({value:e.target.value})}
